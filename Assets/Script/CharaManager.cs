@@ -6,7 +6,13 @@ public class CharaManager : MonoBehaviour {
 	// win =====================================
 	bool m_bOutputLogWin = true;
 	// win =====================================
-
+	// mac ----------------------------------
+	bool m_bOutputLog = true;
+	void OutputLog()
+	{
+		Debug.Log ( "CharaManager.OutputLog" );
+	}
+	// mac ----------------------------------
 
 	// Use this for initialization
 	void Start () {
@@ -18,6 +24,10 @@ public class CharaManager : MonoBehaviour {
 		if( m_bOutputLogWin )
 		{
 			Debug.LogWarning( "CharaManager output WIN." );
+		}
+		if (m_bOutputLog) 
+		{
+			OutputLog ();
 		}
 	}
 }
