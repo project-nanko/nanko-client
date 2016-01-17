@@ -10,7 +10,7 @@ public class CharaManager : MonoBehaviour {
 	bool m_bOutputLog = true;
 	void OutputLog()
 	{
-		Debug.Log ( "CharaManager.OutputLog" );
+		Debug.Log ( "CharaManager.OutputLog mac 2016.01.17 saisyu commit." );
 	}
 	// mac ----------------------------------
 
