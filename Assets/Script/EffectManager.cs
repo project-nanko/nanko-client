@@ -25,7 +25,7 @@ public class EffectManager : MonoBehaviour
 	void Update () {
 		if (--m_nLogOutputInterval < 0) {
 			m_nLogOutputInterval = 30;
-			Debug.LogWarning ( "EffectManager Update" );
+			Debug.LogWarning ( "EffectManager Update from win. 2016.01.17 saisyu commit." );
 		}
 	}
 }
