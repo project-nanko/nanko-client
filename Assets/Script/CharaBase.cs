@@ -13,9 +13,11 @@ public class CharaBase : MonoBehaviour {
 		Vector3 vPos = this.transform.position;
 		vPos.y += 0.1f;
 		vPos.x += 0.1f;
+		vPos.z += -0.05f;
 		if (vPos.y > 10.0f) {
 			vPos.y = 0.0f;
 			vPos.x = 0.0f;
+			vPos.z = 0.0f;
 		}
 		this.transform.position = vPos;
 	}
